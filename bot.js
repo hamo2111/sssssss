@@ -1,7 +1,7 @@
  const Discord = require('discord.js');
 const devs = ['434372713289744385'];
-var prefix = "!";
-const adminprefix = "!"
+var prefix = "H";
+const adminprefix = "H"
 const db = require('quick.db');
 const client = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -166,7 +166,7 @@ client.on("message", message => {
                         .addField('**`العمر`**', `${age}` , true)
                         .addField('**`هل سيتفاعل ؟`**',`${ask}`)
                         .addField('**`هل سيحترم القوانين ؟`**',`${ask2}`)
-                        .addField('**`لماذا يجب علينا قبوله ؟`**',`${ask3}`)
+                        .addField('*`لماذا يجب علينا قبوله ؟`ماالرتبة الذي تردها**',`${ask3}`)
                         .setFooter(message.author.username,'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')
                         channel.send(embed)
                         }, 2500);
